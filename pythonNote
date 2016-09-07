@@ -1,0 +1,41 @@
+python 59 specific ways to write better python
+Brett Slatkin
+
+This book provides insight into the Pythonic way of writing programs: the best
+way to use Python.
+Make a big impact with Python
+
+Item1: Know which version of Python you're using
+python --version
+
+You can also figure out the version of Python you're using at runtime by
+inspecting values in the sys built-in module.
+
+-------
+xuegong (master) tango_with_django_project $ python
+Python 3.3.6 (default, Nov 21 2015, 23:30:01)
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> print(sys.version_info)
+sys.version_info(major=3, minor=3, micro=6, releaselevel='final', serial=0)
+>>> print(sys.version)
+3.3.6 (default, Nov 21 2015, 23:30:01)
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+>>>
+-------
+
+Python 3 is constantly getting new features and improvements that will never be
+added to Python 2.
+
+Things to remember:
+1. There are two major versions of Python still in active use: Python 2 and
+Python 3
+2. There are multiple popular runtimes for Python: CPython, Jython, IronPython,
+PyPy, etc.
+3. Be sure that the command-line for running Python on your system is the
+version you expect it to be.
+4. Prefer Python 3 for your next project because that is the primary focus of
+the Python community.
+
+
